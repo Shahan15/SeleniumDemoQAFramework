@@ -1,0 +1,26 @@
+[2025-03-17 22:38:46] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-17 22:38:56] [INFO] Base - Default browser has been selected - Chrome
+[2025-03-17 22:38:56] [ERROR] Base - error navigating to requested url null 
+[2025-03-17 22:38:56] [INFO] Base - Pagefactory has be instantiated
+[2025-03-17 22:38:56] [INFO] Base - starting navigating To Bookstore-Hometest
+[2025-03-17 22:38:58] [INFO] Base - Closing browser
+[2025-03-17 22:41:45] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-17 22:41:55] [INFO] Base - Chrome has been selected
+[2025-03-17 22:41:56] [INFO] Base - opening https://demoqa.com/
+[2025-03-17 22:41:56] [INFO] Base - Pagefactory has be instantiated
+[2025-03-17 22:41:57] [INFO] Base - starting navigating To Bookstore-Hometest
+[2025-03-17 22:41:57] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-17 22:41:57] [INFO] Base - Waiting 2 seconds for LoginButton to appear
+[2025-03-17 22:41:57] [INFO] Base - Login Button is present
+[2025-03-17 22:41:57] [INFO] Base - Cleaning extent reports
+[2025-03-17 22:41:59] [INFO] Base - Closing browser
+[2025-03-17 22:44:59] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-17 22:45:09] [INFO] Base - Chrome has been selected
+[2025-03-17 22:45:10] [INFO] Base - opening https://demoqa.com/
+[2025-03-17 22:45:10] [INFO] Base - Pagefactory has be instantiated
+[2025-03-17 22:45:11] [INFO] Base - starting navigating To Bookstore-Hometest
+[2025-03-17 22:45:11] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-17 22:45:11] [INFO] Base - Waiting 2 seconds for LoginButton to appear
+[2025-03-17 22:45:11] [INFO] Base - Login Button is present
+[2025-03-17 22:45:11] [INFO] Base - Cleaning extent reports
+[2025-03-17 22:45:14] [INFO] Base - Closing browser

@@ -1,0 +1,10 @@
+[2025-03-17 22:45:45] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-17 22:45:55] [INFO] Base - Chrome has been selected
+[2025-03-17 22:45:56] [INFO] Base - opening https://demoqa.com/
+[2025-03-17 22:45:56] [INFO] Base - Pagefactory has be instantiated
+[2025-03-17 22:45:57] [INFO] Base - starting navigating To Bookstore-Hometest
+[2025-03-17 22:45:57] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-17 22:45:57] [INFO] Base - Waiting 2 seconds for LoginButton to appear
+[2025-03-17 22:45:57] [INFO] Base - Login Button is present
+[2025-03-17 22:45:58] [INFO] Base - Cleaning extent reports
+[2025-03-17 22:46:00] [INFO] Base - Closing browser
