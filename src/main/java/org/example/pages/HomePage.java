@@ -7,6 +7,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.example.utils.Base;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+
 import java.time.Duration;
 
 
@@ -14,6 +16,9 @@ import java.time.Duration;
 public class HomePage extends Base {
     @FindBy(css = ".home-body > div > div:nth-child(6)") WebElement BookCard;
     @FindBy(id = "login") WebElement LoginButton;
+    @FindBy(id = "userName") WebElement UsernameField;
+    @FindBy(id = "password") WebElement PasswordField;
+    @FindBy(id = "submit") WebElement LogoutButton;
 
     public HomePage() {
         this.driver = getDriver();
@@ -44,6 +49,49 @@ public class HomePage extends Base {
             return isDisplayed;
         } catch (Exception ex) {
             logger.error("Error occured,login button is not present {}",ex.getMessage());
+            System.out.println(ex.getMessage());
+            return false;
+        }
+    }
+
+    public void clickLoginButton() {
+        LoginButton.click();
+    }
+
+    public void enterUsername (String username) {
+        UsernameField.sendKeys(username);
+    }
+
+    public void enterPassword(String password) {
+        PasswordField.sendKeys(password);
+    }
+
+    public void LogoutAndNavigateToHome() {
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+            wait.until(ExpectedConditions.visibilityOf(LogoutButton));
+            logger.info("Waiting 3 seconds for logout button to appear");
+
+            LogoutButton.click();
+            logger.info("logged out");
+
+            String targetUrl = "https://demoqa.com/"; // Replace with your desired URL
+            driver.navigate().to(targetUrl);
+            logger.info("Navigated to the URL: " + targetUrl);
+        }catch (Exception ex) {
+            logger.error("Error occurred,logout button is not present {}",ex.getMessage());
+            System.out.println(ex.getMessage());
+        }
+
+    }
+
+    public boolean isLoginSuccessfulCheck () {
+        try {
+            boolean isDisplayed = LogoutButton.isDisplayed();
+            logger.info("Login was successful");
+            return isDisplayed;
+        } catch (Exception ex) {
+            logger.error("Login was unsuccessful {}",ex.getMessage());
             System.out.println(ex.getMessage());
             return false;
         }

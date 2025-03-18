@@ -8,6 +8,7 @@ import org.example.pages.HomePage;
 import org.example.utils.Base;
 
 
+
 @Listeners(org.example.utils.TestListener.class)
 public class BookstoreHomePageTest {
     HomePage homepage = new HomePage();
@@ -27,7 +28,6 @@ public class BookstoreHomePageTest {
 
         //flush method
         Base.reportFlush();
-
     }
 
     @AfterClass
