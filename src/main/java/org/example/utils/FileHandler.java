@@ -1,5 +1,10 @@
 package org.example.utils;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.testng.annotations.DataProvider;
+
+import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.Properties; //class to handle key value pairs
 import static java.nio.file.FileSystems.getDefault;
 
@@ -30,9 +35,31 @@ public class FileHandler {
         return result;
     }
 
-
     public static String getProperty(String key) {
         String results = properties.getProperty(key);
         return results;
     } //this returns the key from config.properties
+
+
+    public static class JSONReader {
+        static class UserData {
+            public String username;
+            public String password;
+        }
+    }
+
+    @DataProvider(name = "jsonData")
+    public Object[][] readJsonData() throws IOException {
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        JSONReader.UserData[] users = objectMapper.readValue(new
+                File("src/test/resources/testData.json"), JSONReader.UserData[].class);
+        Object[][] data = new Object[users.length][2];
+
+        for (int i = 0; i < users.length; i++) {
+            data[i][0] = users[i].username;
+            data[i][1] = users[i].password;
+        }
+        return data;
+    }
 }
