@@ -34,15 +34,15 @@ public class HomePage extends Base {
 
     public void ScrollPage() {
         JavascriptExecutor js = (JavascriptExecutor) driver; //this allows you to execute JS code
-        js.executeScript("window.scrollBy(0,500);");
+        js.executeScript("window.scrollBy(0,600);");
     }
 
     public boolean isLoginButtonPresent() {
         try {
             //2 second wait
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(4));
             wait.until(ExpectedConditions.visibilityOf(LoginButton));
-            logger.info("Waiting 2 seconds for LoginButton to appear");
+            logger.info("Waiting 4 seconds for LoginButton to appear");
 
             boolean isDisplayed = LoginButton.isDisplayed();
             logger.info("Login Button is present");

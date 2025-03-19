@@ -1,7 +1,6 @@
 package org.example.tests;
 
 import org.example.utils.FileHandler;
-import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -23,10 +22,6 @@ public class DataDrivenTest {
     public void testLogin(String username, String password) {
         System.out.println("Testing login with: " + username + " / " + password);
 
-//        if(!homepage.isLoginSuccessfulCheck()){
-//            homepage.Logout();
-//        }
-
         homepage.ClickBookCard();
         Base.logger.info("Navigating to Bookstore page");
 
@@ -41,8 +36,6 @@ public class DataDrivenTest {
 
         homepage.clickLoginButton();
         Base.logger.info("Clicked Login info after entering user information");
-
-//        Assert.assertTrue(homepage.isLoginSuccessfulCheck(), "Login was not successful for username: " + username);
 
         homepage.LogoutAndNavigateToHome();
         Base.logger.info("Logging out of {} account and navigating back to homepage ",username);

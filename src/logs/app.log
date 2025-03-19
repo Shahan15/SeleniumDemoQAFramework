@@ -590,3 +590,87 @@ Session ID: 9d1f145eace70c5e7ca3cec991d4eb8a
 [2025-03-19 11:02:13] [INFO] Base - Waiting 2 seconds for LoginButton to appear
 [2025-03-19 11:02:13] [INFO] Base - Login Button is present
 [2025-03-19 11:02:16] [INFO] Base - Closing browser
+[2025-03-19 12:39:12] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-19 12:39:20] [INFO] Base - Chrome has been selected
+[2025-03-19 12:39:22] [INFO] Base - opening https://demoqa.com/
+[2025-03-19 12:39:22] [INFO] Base - Pagefactory has be instantiated
+[2025-03-19 12:39:22] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-19 12:39:22] [INFO] Base - Navigating to Bookstore page
+[2025-03-19 12:39:25] [INFO] Base - Closing browser
+[2025-03-19 12:40:21] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-19 12:40:29] [INFO] Base - Chrome has been selected
+[2025-03-19 12:40:31] [INFO] Base - opening https://demoqa.com/
+[2025-03-19 12:40:31] [INFO] Base - Pagefactory has be instantiated
+[2025-03-19 12:40:31] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-19 12:40:31] [INFO] Base - Navigating to Bookstore page
+[2025-03-19 12:40:34] [INFO] Base - Closing browser
+[2025-03-19 12:41:52] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-19 12:42:01] [INFO] Base - Chrome has been selected
+[2025-03-19 12:42:02] [INFO] Base - opening https://demoqa.com/
+[2025-03-19 12:42:02] [INFO] Base - Pagefactory has be instantiated
+[2025-03-19 12:42:03] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-19 12:42:03] [INFO] Base - Navigating to Bookstore page
+[2025-03-19 12:42:03] [INFO] Base - Clicked login Button
+[2025-03-19 12:42:03] [INFO] Base - Enter username: user1
+[2025-03-19 12:42:03] [INFO] Base - Entered password Password123!
+[2025-03-19 12:42:03] [INFO] Base - Clicked Login info after entering user information
+[2025-03-19 12:42:04] [INFO] Base - Waiting 3 seconds for logout button to appear
+[2025-03-19 12:42:05] [INFO] Base - logged out
+[2025-03-19 12:42:05] [INFO] Base - Navigated to the URL: https://demoqa.com/
+[2025-03-19 12:42:05] [INFO] Base - Logging out of user1 account and navigating back to homepage 
+[2025-03-19 12:42:05] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-19 12:42:05] [INFO] Base - Navigating to Bookstore page
+[2025-03-19 12:42:05] [INFO] Base - Clicked login Button
+[2025-03-19 12:42:05] [INFO] Base - Enter username: user2
+[2025-03-19 12:42:05] [INFO] Base - Entered password Password345!
+[2025-03-19 12:42:05] [INFO] Base - Clicked Login info after entering user information
+[2025-03-19 12:42:06] [INFO] Base - Waiting 3 seconds for logout button to appear
+[2025-03-19 12:42:07] [INFO] Base - logged out
+[2025-03-19 12:42:07] [INFO] Base - Navigated to the URL: https://demoqa.com/
+[2025-03-19 12:42:07] [INFO] Base - Logging out of user2 account and navigating back to homepage 
+[2025-03-19 12:42:07] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-19 12:42:07] [INFO] Base - Navigating to Bookstore page
+[2025-03-19 12:42:07] [INFO] Base - Clicked login Button
+[2025-03-19 12:42:07] [INFO] Base - Enter username: user3
+[2025-03-19 12:42:07] [INFO] Base - Entered password Password567!
+[2025-03-19 12:42:07] [INFO] Base - Clicked Login info after entering user information
+[2025-03-19 12:42:09] [INFO] Base - Waiting 3 seconds for logout button to appear
+[2025-03-19 12:42:09] [INFO] Base - logged out
+[2025-03-19 12:42:09] [INFO] Base - Navigated to the URL: https://demoqa.com/
+[2025-03-19 12:42:09] [INFO] Base - Logging out of user3 account and navigating back to homepage 
+[2025-03-19 12:42:13] [INFO] Base - Closing browser
+[2025-03-19 12:42:20] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-19 12:42:30] [INFO] Base - Chrome has been selected
+[2025-03-19 12:42:31] [INFO] Base - opening https://demoqa.com/
+[2025-03-19 12:42:31] [INFO] Base - Pagefactory has be instantiated
+[2025-03-19 12:42:31] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-19 12:42:31] [INFO] Base - Navigating to Bookstore page
+[2025-03-19 12:42:32] [INFO] Base - Clicked login Button
+[2025-03-19 12:42:32] [INFO] Base - Enter username: user1
+[2025-03-19 12:42:32] [INFO] Base - Entered password Password123!
+[2025-03-19 12:42:32] [INFO] Base - Clicked Login info after entering user information
+[2025-03-19 12:42:33] [INFO] Base - Waiting 3 seconds for logout button to appear
+[2025-03-19 12:42:33] [INFO] Base - logged out
+[2025-03-19 12:42:33] [INFO] Base - Navigated to the URL: https://demoqa.com/
+[2025-03-19 12:42:33] [INFO] Base - Logging out of user1 account and navigating back to homepage 
+[2025-03-19 12:42:33] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-19 12:42:33] [INFO] Base - Navigating to Bookstore page
+[2025-03-19 12:42:34] [INFO] Base - Clicked login Button
+[2025-03-19 12:42:34] [INFO] Base - Enter username: user2
+[2025-03-19 12:42:34] [INFO] Base - Entered password Password345!
+[2025-03-19 12:42:34] [INFO] Base - Clicked Login info after entering user information
+[2025-03-19 12:42:35] [INFO] Base - Waiting 3 seconds for logout button to appear
+[2025-03-19 12:42:35] [INFO] Base - logged out
+[2025-03-19 12:42:35] [INFO] Base - Navigated to the URL: https://demoqa.com/
+[2025-03-19 12:42:35] [INFO] Base - Logging out of user2 account and navigating back to homepage 
+[2025-03-19 12:42:35] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-19 12:42:35] [INFO] Base - Navigating to Bookstore page
+[2025-03-19 12:42:35] [INFO] Base - Clicked login Button
+[2025-03-19 12:42:35] [INFO] Base - Enter username: user3
+[2025-03-19 12:42:36] [INFO] Base - Entered password Password567!
+[2025-03-19 12:42:36] [INFO] Base - Clicked Login info after entering user information
+[2025-03-19 12:42:37] [INFO] Base - Waiting 3 seconds for logout button to appear
+[2025-03-19 12:42:37] [INFO] Base - logged out
+[2025-03-19 12:42:37] [INFO] Base - Navigated to the URL: https://demoqa.com/
+[2025-03-19 12:42:37] [INFO] Base - Logging out of user3 account and navigating back to homepage 
+[2025-03-19 12:42:39] [INFO] Base - Closing browser
