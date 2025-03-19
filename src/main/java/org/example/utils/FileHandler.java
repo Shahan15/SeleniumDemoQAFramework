@@ -42,7 +42,7 @@ public class FileHandler {
 
 
     public static class JSONReader {
-        static class UserData {
+        public static class UserData {
             public String username;
             public String password;
         }
@@ -61,5 +61,17 @@ public class FileHandler {
             data[i][1] = users[i].password;
         }
         return data;
+    }
+
+    public static JSONReader.UserData getFirstUserFromJson() throws IOException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        JSONReader.UserData[] users = objectMapper.readValue(new File("src/test/resources/testData.json"), JSONReader.UserData[].class);
+        return users[0]; // Return the first user in the JSON array
+    }
+
+    public static JSONReader.UserData getFirstUserPasswordFromJson() throws IOException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        JSONReader.UserData[] users = objectMapper.readValue(new File("src/test/resources/testData.json"), JSONReader.UserData[].class);
+        return users[0]; // Return the first user password in the JSON array
     }
 }

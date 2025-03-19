@@ -1,5 +1,7 @@
 package org.example.pages;
 
+import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -83,7 +85,6 @@ public class HomePage extends Base {
         clickLoginButton();
         Base.logger.info("Submitted login information");
 
-//        Assert.assertTrue(isLoginSuccessfulCheck(), "Login failed for: " + username);
     }
 
     public void LogoutAndNavigateToHome() {
@@ -105,17 +106,23 @@ public class HomePage extends Base {
 
     }
 
-//    public boolean isLoginSuccessfulCheck () {
-//        try {
-//            boolean isDisplayed = LogoutButton.isDisplayed();
-//            logger.info("Login was successful");
-//            return isDisplayed;
-//        } catch (Exception ex) {
-//            logger.error("Login was unsuccessful {}",ex.getMessage());
-//            System.out.println(ex.getMessage());
-//            return false;
-//        }
-//    }
+    public boolean isLoginSuccessfulCheck() {
+        try {
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+            wait.until(ExpectedConditions.visibilityOf(LogoutButton));
+
+            boolean isDisplayed = LogoutButton.isDisplayed();
+            logger.info("Login was successful");
+            return isDisplayed;
+        } catch (NoSuchElementException ex) {
+            logger.error("Login was unsuccessful: Logout button not found. {}", ex.getMessage());
+            return false;
+        } catch (TimeoutException ex) {
+            logger.error("Login was unsuccessful: Logout button did not become visible in time. {}", ex.getMessage());
+            return false;
+        }
+    }
+
 }
 
 /*PageFactory class is used to instantiate the
