@@ -20,25 +20,11 @@ public class DataDrivenTest {
 
     @Test(dataProvider = "loginData")
     public void testLogin(String username, String password) {
-        System.out.println("Testing login with: " + username + " / " + password);
-
-        homepage.ClickBookCard();
-        Base.logger.info("Navigating to Bookstore page");
-
-        homepage.clickLoginButton();
-        Base.logger.info("Clicked login Button");
-
-        homepage.enterUsername(username);
-        Base.logger.info("Enter username: {}", username);
-
-        homepage.enterPassword(password);
-        Base.logger.info("Entered password {}", password);
-
-        homepage.clickLoginButton();
-        Base.logger.info("Clicked Login info after entering user information");
+        Base.logger.info("Testing login with: {} / {}", username, password);
+        homepage.performLogin(username, password);
 
         homepage.LogoutAndNavigateToHome();
-        Base.logger.info("Logging out of {} account and navigating back to homepage ",username);
+        Base.logger.info("Logged out from {} account and navigated back to homepage", username);
     }
 
     @AfterClass

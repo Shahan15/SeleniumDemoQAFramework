@@ -7,6 +7,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.example.utils.Base;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 
 import java.time.Duration;
@@ -40,9 +41,9 @@ public class HomePage extends Base {
     public boolean isLoginButtonPresent() {
         try {
             //2 second wait
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(4));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
             wait.until(ExpectedConditions.visibilityOf(LoginButton));
-            logger.info("Waiting 4 seconds for LoginButton to appear");
+            logger.info("Waiting 5 seconds for LoginButton to appear");
 
             boolean isDisplayed = LoginButton.isDisplayed();
             logger.info("Login Button is present");
@@ -64,6 +65,25 @@ public class HomePage extends Base {
 
     public void enterPassword(String password) {
         PasswordField.sendKeys(password);
+    }
+
+    public void performLogin(String username, String password) {
+        ClickBookCard();
+        Base.logger.info("Navigating to Bookstore page");
+
+        clickLoginButton();
+        Base.logger.info("Clicked login button");
+
+        enterUsername(username);
+        Base.logger.info("Entered username: {}", username);
+
+        enterPassword(password);
+        Base.logger.info("Entered password");
+
+        clickLoginButton();
+        Base.logger.info("Submitted login information");
+
+//        Assert.assertTrue(isLoginSuccessfulCheck(), "Login failed for: " + username);
     }
 
     public void LogoutAndNavigateToHome() {
