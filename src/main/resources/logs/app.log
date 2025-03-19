@@ -1,0 +1,35 @@
+[2025-03-19 14:58:03] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-19 14:58:13] [INFO] Base - Chrome has been selected
+[2025-03-19 14:58:15] [INFO] Base - opening https://demoqa.com/
+[2025-03-19 14:58:15] [INFO] Base - Pagefactory has be instantiated
+[2025-03-19 14:58:15] [INFO] Base - starting navigating To Bookstore-Hometest
+[2025-03-19 14:58:16] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-19 14:58:16] [INFO] Base - Waiting 5 seconds for LoginButton to appear
+[2025-03-19 14:58:16] [INFO] Base - Login Button is present
+[2025-03-19 14:58:16] [INFO] Base - Cleaning extent reports
+[2025-03-19 14:58:19] [INFO] Base - Closing browser
+[2025-03-19 14:58:30] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-19 14:58:41] [INFO] Base - Chrome has been selected
+[2025-03-19 14:58:42] [INFO] Base - opening https://demoqa.com/
+[2025-03-19 14:58:42] [INFO] Base - Pagefactory has be instantiated
+[2025-03-19 14:58:43] [INFO] Base - starting navigating To Bookstore-Hometest
+[2025-03-19 14:58:43] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-19 14:58:43] [INFO] Base - Waiting 5 seconds for LoginButton to appear
+[2025-03-19 14:58:43] [INFO] Base - Login Button is present
+[2025-03-19 14:58:43] [INFO] Base - Cleaning extent reports
+[2025-03-19 14:58:46] [INFO] Base - Closing browser
+[2025-03-19 15:02:13] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-19 15:02:22] [INFO] Base - Chrome has been selected
+[2025-03-19 15:02:23] [INFO] Base - opening https://demoqa.com/
+[2025-03-19 15:02:23] [INFO] Base - Pagefactory has be instantiated
+[2025-03-19 15:02:23] [INFO] Base - Webdriver and Homepage initialised
+[2025-03-19 15:02:23] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-19 15:02:24] [INFO] Base - @GIVEN: Clicked login button to navigate to login page
+[2025-03-19 15:02:24] [INFO] Base - Waiting 5 seconds for LoginButton to appear
+[2025-03-19 15:02:24] [INFO] Base - Login Button is present
+[2025-03-19 15:02:24] [INFO] Base - @WHEN: entered username user1
+[2025-03-19 15:02:24] [INFO] Base - @AND: entered password Password123!
+[2025-03-19 15:02:24] [INFO] Base - @AND: clicked on login button after entering user and pass
+[2025-03-19 15:02:25] [INFO] Base - Login was successful
+[2025-03-19 15:02:25] [INFO] Base - @THEN: redirected to dashboard,Login was successful
+[2025-03-19 15:02:29] [INFO] Base - Closing browser

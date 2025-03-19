@@ -39,6 +39,7 @@
     <artifactId>extentreports</artifactId>
     <version>5.1.2</version>
   </dependency>
+
   <dependency>
     <groupId>commons-io</groupId>
     <artifactId>commons-io</artifactId>
@@ -60,6 +61,11 @@
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-testng</artifactId>
       <version>7.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>tech.grasshopper</groupId>
+      <artifactId>extentreports-cucumber7-adapter</artifactId>
+      <version>1.14.0</version>
     </dependency>
   </dependencies>
   <build>

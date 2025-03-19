@@ -20,7 +20,7 @@ public class FileHandler {
     public static String ConfigPath = dir + Fs + "src" + Fs + "main" + Fs + "resources" + Fs;
     public static String ConfigFile = ConfigPath + "config.properties";
 
-    public static String reports = ConfigPath + "reports" + Fs;
+    public static String reports = ConfigPath + "Reports" + Fs;
     public static String screenshotPath = ConfigPath + "ScreenshotsFolder" + Fs;
 
     public static String readFile(String strKey)  {

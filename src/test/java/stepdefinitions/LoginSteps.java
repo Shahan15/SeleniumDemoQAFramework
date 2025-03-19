@@ -17,13 +17,13 @@ import java.io.IOException;
 
 public class LoginSteps {
 
-     private HomePage homepage;
+    private HomePage homepage;
 
-     @Before
-     public void setUp( ) {
-         homepage= new HomePage();
-         Base.logger.info("Webdriver and Homepage initialised");
-     }
+    @Before
+    public void setUp() {
+        homepage = new HomePage();
+        Base.logger.info("Webdriver and Homepage initialised");
+    }
 
     @Given("the user is on the login page")
     public void theUserIsOnTheLoginPage() {
@@ -32,7 +32,7 @@ public class LoginSteps {
 
         homepage.clickLoginButton();
         Base.logger.info("@GIVEN: Clicked login button to navigate to login page");
-        Assert.assertTrue(homepage.isLoginButtonPresent(),"You are on login page");
+        Assert.assertTrue(homepage.isLoginButtonPresent(), "You are on login page");
     }
 
     @When("they enter valid username")
@@ -40,17 +40,17 @@ public class LoginSteps {
         String username = FileHandler.getFirstUserFromJson().username;
 
         homepage.enterUsername(username);
-        Base.logger.info("@WHEN: entered username {}",username);
+        Base.logger.info("@WHEN: entered username {}", username);
     }
 
 
     @And("they enter valid password")
-    public void theyEnterValidPassword () throws IOException {
+    public void theyEnterValidPassword() throws IOException {
 
-         String password = FileHandler.getFirstUserPasswordFromJson().password;
+        String password = FileHandler.getFirstUserPasswordFromJson().password;
 
         homepage.enterPassword(password);
-        Base.logger.info("@AND: entered password {}", password );
+        Base.logger.info("@AND: entered password {}", password);
     }
 
 
@@ -68,12 +68,11 @@ public class LoginSteps {
     }
 
     @After
-    public void TearDown () {
+    public void TearDown() {
         Base.quitDriver();
     }
 
 }
-
 
 
 //so here we write the logic of each step from the feature file
