@@ -34,7 +34,7 @@ public class HomePage extends Base {
 
     public void ScrollPage() {
         JavascriptExecutor js = (JavascriptExecutor) driver; //this allows you to execute JS code
-        js.executeScript("arguments[0].scrollIntoView();", BookCard);
+        js.executeScript("window.scrollBy(0,500);");
     }
 
     public boolean isLoginButtonPresent() {
@@ -77,7 +77,7 @@ public class HomePage extends Base {
 
             String targetUrl = "https://demoqa.com/"; // Replace with your desired URL
             driver.navigate().to(targetUrl);
-            logger.info("Navigated to the URL: " + targetUrl);
+            logger.info(STR."Navigated to the URL: \{targetUrl}");
         }catch (Exception ex) {
             logger.error("Error occurred,logout button is not present {}",ex.getMessage());
             System.out.println(ex.getMessage());
@@ -85,17 +85,17 @@ public class HomePage extends Base {
 
     }
 
-    public boolean isLoginSuccessfulCheck () {
-        try {
-            boolean isDisplayed = LogoutButton.isDisplayed();
-            logger.info("Login was successful");
-            return isDisplayed;
-        } catch (Exception ex) {
-            logger.error("Login was unsuccessful {}",ex.getMessage());
-            System.out.println(ex.getMessage());
-            return false;
-        }
-    }
+//    public boolean isLoginSuccessfulCheck () {
+//        try {
+//            boolean isDisplayed = LogoutButton.isDisplayed();
+//            logger.info("Login was successful");
+//            return isDisplayed;
+//        } catch (Exception ex) {
+//            logger.error("Login was unsuccessful {}",ex.getMessage());
+//            System.out.println(ex.getMessage());
+//            return false;
+//        }
+//    }
 }
 
 /*PageFactory class is used to instantiate the
