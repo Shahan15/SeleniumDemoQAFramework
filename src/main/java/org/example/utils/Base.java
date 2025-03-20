@@ -109,7 +109,7 @@ public class Base {
         try {
             FileUtils.copyFile(SS,new File(SFile));
         } catch (Exception e) {
-            logger.error(e.getMessage());
+            logger.error("Error while taking a screenshot {}",e.getMessage());
         }
         return SFile;
     }

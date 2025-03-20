@@ -1,6 +1,7 @@
 package stepdefinitions;
 
 
+import com.aventstack.extentreports.Status;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
@@ -9,11 +10,13 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.example.pages.HomePage;
 import org.example.utils.Base;
+import org.example.utils.ExtentReportHelper;
 import org.example.utils.FileHandler;
 import org.testng.Assert;
 
-import java.io.File;
 import java.io.IOException;
+
+
 
 public class LoginSteps {
 
@@ -29,7 +32,6 @@ public class LoginSteps {
     public void theUserIsOnTheLoginPage() {
         homepage.ClickBookCard();
 
-
         homepage.clickLoginButton();
         Base.logger.info("@GIVEN: Clicked login button to navigate to login page");
         Assert.assertTrue(homepage.isLoginButtonPresent(), "You are on login page");
@@ -41,6 +43,7 @@ public class LoginSteps {
 
         homepage.enterUsername(username);
         Base.logger.info("@WHEN: entered username {}", username);
+        ExtentReportHelper.logStep(Status.INFO, "Entering username: " + username);
     }
 
 
@@ -51,6 +54,8 @@ public class LoginSteps {
 
         homepage.enterPassword(password);
         Base.logger.info("@AND: entered password {}", password);
+
+        ExtentReportHelper.logStep(Status.INFO, "Entering password: " + password);
     }
 
 
@@ -62,14 +67,12 @@ public class LoginSteps {
 
     @Then("they should be redirected to the dashboard")
     public void theyShouldBeRedirectedToTheDashboard() {
+
         Assert.assertTrue(homepage.isLoginSuccessfulCheck());
         Base.logger.info("@THEN: redirected to dashboard,Login was successful");
 
-    }
+        ExtentReportHelper.logStep(Status.PASS, "User successfully redirected to the dashboard.");
 
-    @After
-    public void TearDown() {
-        Base.quitDriver();
     }
 
 }

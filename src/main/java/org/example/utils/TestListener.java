@@ -5,7 +5,6 @@ import com.aventstack.extentreports.Status;
 import org.testng.ITestContext;
 import org.testng.ITestListener; // ITestListener is an interface provided by TestNG
 import org.testng.ITestResult;
-
 import static org.example.utils.Base.logger;
 
 

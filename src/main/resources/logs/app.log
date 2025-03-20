@@ -33,3 +33,189 @@
 [2025-03-19 15:02:25] [INFO] Base - Login was successful
 [2025-03-19 15:02:25] [INFO] Base - @THEN: redirected to dashboard,Login was successful
 [2025-03-19 15:02:29] [INFO] Base - Closing browser
+[2025-03-20 09:13:55] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-20 09:14:09] [INFO] Base - Chrome has been selected
+[2025-03-20 09:14:11] [INFO] Base - opening https://demoqa.com/
+[2025-03-20 09:14:11] [INFO] Base - Pagefactory has be instantiated
+[2025-03-20 09:14:11] [INFO] Base - Webdriver and Homepage initialised
+[2025-03-20 09:14:12] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-20 09:14:12] [INFO] Base - @GIVEN: Clicked login button to navigate to login page
+[2025-03-20 09:14:13] [INFO] Base - Waiting 5 seconds for LoginButton to appear
+[2025-03-20 09:14:13] [INFO] Base - Login Button is present
+[2025-03-20 09:14:14] [INFO] Base - @WHEN: entered username user1
+[2025-03-20 09:14:14] [INFO] Base - @AND: entered password Password123!
+[2025-03-20 09:14:14] [INFO] Base - @AND: clicked on login button after entering user and pass
+[2025-03-20 09:14:15] [INFO] Base - Login was successful
+[2025-03-20 09:14:15] [INFO] Base - @THEN: redirected to dashboard,Login was successful
+[2025-03-20 09:14:19] [INFO] Base - Closing browser
+[2025-03-20 09:15:52] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-20 09:16:02] [INFO] Base - Chrome has been selected
+[2025-03-20 09:16:04] [INFO] Base - opening https://demoqa.com/
+[2025-03-20 09:16:04] [INFO] Base - Pagefactory has be instantiated
+[2025-03-20 09:16:04] [INFO] Base - Webdriver and Homepage initialised
+[2025-03-20 09:16:04] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-20 09:16:05] [INFO] Base - @GIVEN: Clicked login button to navigate to login page
+[2025-03-20 09:16:05] [INFO] Base - Waiting 5 seconds for LoginButton to appear
+[2025-03-20 09:16:05] [INFO] Base - Login Button is present
+[2025-03-20 09:16:06] [INFO] Base - @WHEN: entered username user1
+[2025-03-20 09:16:06] [INFO] Base - @AND: entered password Password123!
+[2025-03-20 09:16:06] [INFO] Base - @AND: clicked on login button after entering user and pass
+[2025-03-20 09:16:07] [INFO] Base - Login was successful
+[2025-03-20 09:16:07] [INFO] Base - @THEN: redirected to dashboard,Login was successful
+[2025-03-20 09:16:09] [INFO] Base - Closing browser
+[2025-03-20 09:42:05] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-20 09:42:15] [INFO] Base - Chrome has been selected
+[2025-03-20 09:42:16] [INFO] Base - opening https://demoqa.com/
+[2025-03-20 09:42:16] [INFO] Base - Pagefactory has be instantiated
+[2025-03-20 09:42:16] [INFO] Base - Webdriver and Homepage initialised
+[2025-03-20 09:42:17] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-20 09:42:17] [INFO] Base - @GIVEN: Clicked login button to navigate to login page
+[2025-03-20 09:42:17] [INFO] Base - Waiting 5 seconds for LoginButton to appear
+[2025-03-20 09:42:17] [INFO] Base - Login Button is present
+[2025-03-20 09:42:17] [INFO] Base - @WHEN: entered username user1
+[2025-03-20 09:42:18] [INFO] Base - @AND: entered password Password123!
+[2025-03-20 09:42:18] [INFO] Base - @AND: clicked on login button after entering user and pass
+[2025-03-20 09:42:19] [INFO] Base - Login was successful
+[2025-03-20 09:42:19] [INFO] Base - @THEN: redirected to dashboard,Login was successful
+[2025-03-20 09:42:21] [INFO] Base - Closing browser
+[2025-03-20 10:23:45] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-20 10:23:58] [INFO] Base - Chrome has been selected
+[2025-03-20 10:24:00] [INFO] Base - opening https://demoqa.com/
+[2025-03-20 10:24:00] [INFO] Base - Pagefactory has be instantiated
+[2025-03-20 10:24:00] [INFO] Base - Webdriver and Homepage initialised
+[2025-03-20 10:24:00] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-20 10:24:01] [INFO] Base - @GIVEN: Clicked login button to navigate to login page
+[2025-03-20 10:24:01] [INFO] Base - Waiting 5 seconds for LoginButton to appear
+[2025-03-20 10:24:01] [INFO] Base - Login Button is present
+[2025-03-20 10:24:01] [INFO] Base - @WHEN: entered username user1
+[2025-03-20 10:24:02] [INFO] Base - @AND: entered password Password123!
+[2025-03-20 10:24:02] [INFO] Base - @AND: clicked on login button after entering user and pass
+[2025-03-20 10:24:03] [INFO] Base - Login was successful
+[2025-03-20 10:24:03] [INFO] Base - @THEN: redirected to dashboard,Login was successful
+[2025-03-20 10:24:05] [INFO] Base - Closing browser
+[2025-03-20 10:26:33] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-20 10:26:42] [INFO] Base - Chrome has been selected
+[2025-03-20 10:26:44] [INFO] Base - opening https://demoqa.com/
+[2025-03-20 10:26:44] [INFO] Base - Pagefactory has be instantiated
+[2025-03-20 10:26:44] [INFO] Base - Webdriver and Homepage initialised
+[2025-03-20 10:26:44] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-20 10:26:44] [INFO] Base - @GIVEN: Clicked login button to navigate to login page
+[2025-03-20 10:26:44] [INFO] Base - Waiting 5 seconds for LoginButton to appear
+[2025-03-20 10:26:44] [INFO] Base - Login Button is present
+[2025-03-20 10:26:45] [INFO] Base - @WHEN: entered username user1
+[2025-03-20 10:26:45] [INFO] Base - @AND: entered password Password123!
+[2025-03-20 10:26:45] [INFO] Base - @AND: clicked on login button after entering user and pass
+[2025-03-20 10:26:46] [INFO] Base - Login was successful
+[2025-03-20 10:26:46] [INFO] Base - @THEN: redirected to dashboard,Login was successful
+[2025-03-20 10:26:48] [INFO] Base - Closing browser
+[2025-03-20 10:48:58] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-20 10:49:08] [INFO] Base - Chrome has been selected
+[2025-03-20 10:49:10] [INFO] Base - opening https://demoqa.com/
+[2025-03-20 10:49:10] [INFO] Base - Pagefactory has be instantiated
+[2025-03-20 10:49:10] [INFO] Base - Webdriver and Homepage initialised
+[2025-03-20 10:49:10] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-20 10:49:11] [INFO] Base - @GIVEN: Clicked login button to navigate to login page
+[2025-03-20 10:49:11] [INFO] Base - Waiting 5 seconds for LoginButton to appear
+[2025-03-20 10:49:11] [INFO] Base - Login Button is present
+[2025-03-20 10:49:11] [INFO] Base - @WHEN: entered username user1
+[2025-03-20 10:49:12] [INFO] Base - @AND: entered password Password123!
+[2025-03-20 10:49:12] [INFO] Base - @AND: clicked on login button after entering user and pass
+[2025-03-20 10:49:13] [INFO] Base - Login was successful
+[2025-03-20 10:49:13] [INFO] Base - @THEN: redirected to dashboard,Login was successful
+[2025-03-20 10:49:15] [INFO] Base - Closing browser
+[2025-03-20 10:49:49] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-20 10:49:59] [INFO] Base - Chrome has been selected
+[2025-03-20 10:50:01] [INFO] Base - opening https://demoqa.com/
+[2025-03-20 10:50:01] [INFO] Base - Pagefactory has be instantiated
+[2025-03-20 10:50:01] [INFO] Base - Webdriver and Homepage initialised
+[2025-03-20 10:50:01] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-20 10:50:02] [INFO] Base - @GIVEN: Clicked login button to navigate to login page
+[2025-03-20 10:50:02] [INFO] Base - Waiting 5 seconds for LoginButton to appear
+[2025-03-20 10:50:02] [INFO] Base - Login Button is present
+[2025-03-20 10:50:03] [INFO] Base - @WHEN: entered username user12
+[2025-03-20 10:50:03] [INFO] Base - @AND: entered password Password123!
+[2025-03-20 10:50:03] [INFO] Base - @AND: clicked on login button after entering user and pass
+[2025-03-20 10:50:08] [ERROR] Base - Login was unsuccessful: Logout button did not become visible in time. Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: submit' (tried for 5 second(s) with 500 milliseconds interval)
+[2025-03-20 10:50:13] [INFO] Base - Closing browser
+[2025-03-20 10:57:25] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-20 10:57:35] [INFO] Base - Chrome has been selected
+[2025-03-20 10:57:38] [INFO] Base - opening https://demoqa.com/
+[2025-03-20 10:57:38] [INFO] Base - Pagefactory has be instantiated
+[2025-03-20 10:57:38] [INFO] Base - Webdriver and Homepage initialised
+[2025-03-20 10:57:39] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-20 10:57:39] [INFO] Base - @GIVEN: Clicked login button to navigate to login page
+[2025-03-20 10:57:39] [INFO] Base - Waiting 5 seconds for LoginButton to appear
+[2025-03-20 10:57:40] [INFO] Base - Login Button is present
+[2025-03-20 10:57:40] [INFO] Base - @WHEN: entered username user1
+[2025-03-20 10:57:41] [INFO] Base - @AND: entered password Password123!
+[2025-03-20 10:57:41] [INFO] Base - @AND: clicked on login button after entering user and pass
+[2025-03-20 10:57:42] [INFO] Base - Login was successful
+[2025-03-20 10:57:42] [INFO] Base - @THEN: redirected to dashboard,Login was successful
+[2025-03-20 10:57:45] [INFO] Base - Closing browser
+[2025-03-20 12:23:54] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-20 12:24:03] [INFO] Base - Chrome has been selected
+[2025-03-20 12:24:05] [INFO] Base - opening https://demoqa.com/
+[2025-03-20 12:24:05] [INFO] Base - Pagefactory has be instantiated
+[2025-03-20 12:24:05] [INFO] Base - Webdriver and Homepage initialised
+[2025-03-20 12:24:05] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-20 12:24:05] [INFO] Base - @GIVEN: Clicked login button to navigate to login page
+[2025-03-20 12:24:05] [INFO] Base - Waiting 5 seconds for LoginButton to appear
+[2025-03-20 12:24:05] [INFO] Base - Login Button is present
+[2025-03-20 12:24:05] [INFO] Base - @WHEN: entered username user1
+[2025-03-20 12:24:05] [INFO] Base - @AND: entered password Password123!
+[2025-03-20 12:24:06] [INFO] Base - @AND: clicked on login button after entering user and pass
+[2025-03-20 12:24:07] [INFO] Base - Login was successful
+[2025-03-20 12:24:07] [INFO] Base - @THEN: redirected to dashboard,Login was successful
+[2025-03-20 12:24:11] [INFO] Base - Closing browser
+[2025-03-20 12:24:27] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-20 12:24:39] [INFO] Base - Chrome has been selected
+[2025-03-20 12:24:41] [INFO] Base - opening https://demoqa.com/
+[2025-03-20 12:24:41] [INFO] Base - Pagefactory has be instantiated
+[2025-03-20 12:24:41] [INFO] Base - Webdriver and Homepage initialised
+[2025-03-20 12:24:41] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-20 12:24:45] [INFO] Base - Closing browser
+[2025-03-20 12:25:04] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-20 12:25:13] [INFO] Base - Chrome has been selected
+[2025-03-20 12:25:15] [INFO] Base - opening https://demoqa.com/
+[2025-03-20 12:25:15] [INFO] Base - Pagefactory has be instantiated
+[2025-03-20 12:25:15] [INFO] Base - Webdriver and Homepage initialised
+[2025-03-20 12:25:15] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-20 12:25:15] [INFO] Base - @GIVEN: Clicked login button to navigate to login page
+[2025-03-20 12:25:15] [INFO] Base - Waiting 5 seconds for LoginButton to appear
+[2025-03-20 12:25:15] [INFO] Base - Login Button is present
+[2025-03-20 12:25:15] [INFO] Base - @WHEN: entered username user1
+[2025-03-20 12:25:16] [INFO] Base - @AND: entered password Password123!
+[2025-03-20 12:25:16] [INFO] Base - @AND: clicked on login button after entering user and pass
+[2025-03-20 12:25:17] [INFO] Base - Login was successful
+[2025-03-20 12:25:17] [INFO] Base - @THEN: redirected to dashboard,Login was successful
+[2025-03-20 12:25:20] [INFO] Base - Closing browser
+[2025-03-20 12:26:39] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-20 12:26:48] [INFO] Base - Chrome has been selected
+[2025-03-20 12:26:50] [INFO] Base - opening https://demoqa.com/
+[2025-03-20 12:26:50] [INFO] Base - Pagefactory has be instantiated
+[2025-03-20 12:26:50] [INFO] Base - Webdriver and Homepage initialised
+[2025-03-20 12:26:50] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-20 12:26:50] [INFO] Base - @GIVEN: Clicked login button to navigate to login page
+[2025-03-20 12:26:51] [INFO] Base - Waiting 5 seconds for LoginButton to appear
+[2025-03-20 12:26:51] [INFO] Base - Login Button is present
+[2025-03-20 12:26:51] [INFO] Base - @WHEN: entered username user1
+[2025-03-20 12:26:51] [INFO] Base - @AND: entered password Password123!
+[2025-03-20 12:26:51] [INFO] Base - @AND: clicked on login button after entering user and pass
+[2025-03-20 12:26:52] [INFO] Base - Login was successful
+[2025-03-20 12:26:52] [INFO] Base - @THEN: redirected to dashboard,Login was successful
+[2025-03-20 12:26:56] [INFO] Base - Closing browser
+[2025-03-20 12:31:58] [INFO] Base - Setting up Extent Reports on:- 
+[2025-03-20 12:32:07] [INFO] Base - Chrome has been selected
+[2025-03-20 12:32:09] [INFO] Base - opening https://demoqa.com/
+[2025-03-20 12:32:09] [INFO] Base - Pagefactory has be instantiated
+[2025-03-20 12:32:09] [INFO] Base - Webdriver and Homepage initialised
+[2025-03-20 12:32:09] [INFO] Base - Book card on Homepage has been clicked
+[2025-03-20 12:32:09] [INFO] Base - @GIVEN: Clicked login button to navigate to login page
+[2025-03-20 12:32:10] [INFO] Base - Waiting 5 seconds for LoginButton to appear
+[2025-03-20 12:32:10] [INFO] Base - Login Button is present
+[2025-03-20 12:32:10] [INFO] Base - @WHEN: entered username user1
+[2025-03-20 12:32:10] [INFO] Base - @AND: entered password Password123!
+[2025-03-20 12:32:10] [INFO] Base - @AND: clicked on login button after entering user and pass
+[2025-03-20 12:32:12] [INFO] Base - Login was successful
+[2025-03-20 12:32:12] [INFO] Base - @THEN: redirected to dashboard,Login was successful
+[2025-03-20 12:32:13] [INFO] Base - Closing browser
