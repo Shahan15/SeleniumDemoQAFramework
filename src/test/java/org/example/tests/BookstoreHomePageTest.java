@@ -4,12 +4,12 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import org.example.pages.HomePage;
-import org.example.utils.Base;
+import pages.HomePage;
+import utils.Base;
+import utils.TestListener;
 
 
-
-@Listeners(org.example.utils.TestListener.class)
+@Listeners(TestListener.class)
 public class BookstoreHomePageTest {
     HomePage homepage = new HomePage();
     String testTitle = "navigating To Bookstore-Home";

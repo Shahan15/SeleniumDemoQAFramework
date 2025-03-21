@@ -1,4 +1,4 @@
-package org.example.utils;
+package utils;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.testng.annotations.DataProvider;
 
@@ -17,7 +17,7 @@ public class FileHandler {
     //dir will get the user directory
     public static String Fs = getDefault().getSeparator();
     public static String dir = System.getProperty("user.dir");
-    public static String ConfigPath = dir + Fs + "src" + Fs + "main" + Fs + "resources" + Fs;
+    public static String ConfigPath = dir + Fs + "src" + Fs + "test" + Fs + "resources" + Fs;
     public static String ConfigFile = ConfigPath + "config.properties";
 
     public static String reports = ConfigPath + "Reports" + Fs;

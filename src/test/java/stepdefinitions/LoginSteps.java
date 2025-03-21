@@ -2,16 +2,15 @@ package stepdefinitions;
 
 
 import com.aventstack.extentreports.Status;
-import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.example.pages.HomePage;
-import org.example.utils.Base;
-import org.example.utils.ExtentReportHelper;
-import org.example.utils.FileHandler;
+import pages.HomePage;
+import utils.Base;
+import utils.ExtentReportHelper;
+import utils.FileHandler;
 import org.testng.Assert;
 
 import java.io.IOException;

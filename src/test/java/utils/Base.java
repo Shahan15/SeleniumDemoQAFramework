@@ -1,4 +1,4 @@
-package org.example.utils;
+package utils;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.Logger;
@@ -20,11 +20,10 @@ public class Base {
 
     public static final Logger logger = LogManager.getLogger(Base.class);
     public static WebDriver driver;
-    private static FileHandler filehandler;
     public static ExtentReports reports;
     public static ExtentTest test;
 
-    static String timestamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
+    public static String timestamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
 
 
     public Base() {
@@ -34,7 +33,7 @@ public class Base {
     public static WebDriver getDriver() {
         try {
             //readfile is static so don't need to instantiate Filehandler
-            String browser = filehandler.readFile("browser");
+            String browser = FileHandler.readFile("browser");
             switch (browser.toLowerCase()) {
                 case "chrome":
                     driver = new ChromeDriver();

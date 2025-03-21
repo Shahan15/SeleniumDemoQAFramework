@@ -1,11 +1,11 @@
-package org.example.utils;
+package utils;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import org.testng.ITestContext;
 import org.testng.ITestListener; // ITestListener is an interface provided by TestNG
 import org.testng.ITestResult;
-import static org.example.utils.Base.logger;
+import static utils.Base.logger;
 
 
 public class TestListener implements ITestListener {

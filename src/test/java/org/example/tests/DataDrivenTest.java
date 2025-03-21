@@ -1,11 +1,11 @@
 package org.example.tests;
 
-import org.example.utils.FileHandler;
+import utils.FileHandler;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import org.example.pages.HomePage;
-import org.example.utils.Base;
+import pages.HomePage;
+import utils.Base;
 
 import java.io.IOException;
 
