@@ -34,6 +34,7 @@ This framework is designed for flexibility, maintainability, and real-world use,
 
 ## 📁 Project Structure
 
+```text
 src/test/java/
 ├── hooks/               # Cucumber Hooks
 ├── model/               # Test data models (e.g., Car, Bike)
@@ -43,7 +44,7 @@ src/test/java/
 ├── scrapers/            # Web scraping logic (e.g., bikes, cars)
 ├── utils/               # Utilities (Excel, screenshots, waits, logging)
 └── org/example/tests/   # TDD-style tests
-
+```
 ---
 
 ## ⚙️ Configuration
